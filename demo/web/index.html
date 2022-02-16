@@ -1,0 +1,71 @@
+<html>
+  <head>
+    <title>Vamos Marcar? - Web</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- FAVICON AND TOUCH ICONS  -->
+		<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+		<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+		<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+		<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+		<link rel="manifest" href="site.webmanifest">
+		<link rel="mask-icon" href="safari-pinned-tab.svg" color="#cc3333">
+		<meta name="msapplication-TileColor" content="#43434c">
+    <meta name="theme-color" content="#43434c">
+    
+    <style>
+    	.webtest-title {
+      text-align: center;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: bold;
+      font-size: 41px;
+      color: rgba(67,67,76,1);
+      display: block;
+      padding: 0 50;
+      }
+      .webtest-text {
+      text-align: center;
+      font-family: Roboto;
+      font-style: normal;
+      font-weight: normal;
+      font-size: 21px;
+      color: rgba(67,67,76,1);
+      display: block;
+      padding: 50;
+    }
+    .webtest-img{
+      padding: 50 0;
+      text-align: center;
+      margin: auto;
+      display: block;
+      opacity: 50%;
+    }
+    </style>
+  </head>
+  <body>
+
+    <span class="webtest-title">Teste agora no navegador!</span>
+
+    <span class="webtest-text">Clique no botão com o logo do VamosMarcar? na parte inferior direita dessa página para acessar o protótipo no seu navegador!</spanclass="webtest-title">
+
+    <img class="webtest-img" src="https://kauelima.com/vamosmarcar/images/vm-circle.png">
+
+  <script src="https://unpkg.com/blip-chat-widget" type="text/javascript">
+  </script>
+  <script>
+      (function () {
+          window.onload = function () {
+              new BlipChat()
+              .withAppKey('dmFtb3NtYXJjYXI6MzYyNWM2NjEtMTYyNS00OGJhLWFjZDctYTUwNTFkZGM3MTAw')
+              .withButton({"color":"#43434C","icon":"https://s3-sa-east-1.amazonaws.com/msging.net/Services/Images/81724103-c1d1-4b31-852c-c40225b9556d"})
+              .build();
+          }
+      })();
+  </script>
+                                  
+    
+                                       
+  </body>
+</html>
